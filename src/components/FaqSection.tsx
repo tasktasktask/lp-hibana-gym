@@ -143,7 +143,7 @@ function FaqCategoryBlock({
       <h4 className="w-full border-b-2 border-brand-ink pb-[8px] text-[16px] font-bold text-brand-ink lg:text-[18px]">
         {category.category}
       </h4>
-      <div className="flex w-full flex-col items-start">
+      <div className="flex w-full flex-col">
         {category.items.map((item, itemIndex) => (
           <FaqAccordionItem
             key={item.question}
