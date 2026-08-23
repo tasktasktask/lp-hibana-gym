@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element -- pixel-perfect Figma recreation with cropped/masked images that don't fit next/image's layout model */
 export function MissionSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#ff5b1c]">
+    <section className="relative w-full bg-[#ff5b1c]">
       <div
         aria-hidden
         className="absolute inset-0 bg-[url('/images/section-bg.png')] bg-cover bg-bottom opacity-30 mix-blend-overlay"
