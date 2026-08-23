@@ -74,8 +74,12 @@ export function Hero() {
       </section>
 
       {/* desktop hero */}
-      <section className="relative hidden h-[667px] w-full bg-white lg:block">
-        <div className="relative mx-auto h-full w-[1440px] overflow-hidden">
+      <section className="relative hidden w-full bg-white lg:block">
+        <div className="relative mx-auto aspect-[1440/667] w-full max-w-[1440px] overflow-hidden [container-type:inline-size]">
+        <div
+          className="absolute left-0 top-0 h-[667px] w-[1440px] origin-top-left"
+          style={{ transform: "scale(min(1, calc(100cqw / 1440px)))" }}
+        >
         {/* background photo */}
         <img
           src="/images/bg-fv.png"
@@ -152,6 +156,7 @@ export function Hero() {
             <span className="text-[17px]">インタビュー</span>
           </p>
         </a>
+        </div>
         </div>
       </section>
     </>

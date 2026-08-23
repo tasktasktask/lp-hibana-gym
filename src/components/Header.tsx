@@ -12,7 +12,7 @@ const NAV_ITEMS = [
 
 function Logo() {
   return (
-    <div className="flex items-center gap-[4px]">
+    <div className="flex shrink-0 items-center gap-[4px]">
       <img src="/images/group1171277558.svg" alt="" className="h-5 w-5" />
       <img
         src="/images/logo.svg"
@@ -33,15 +33,15 @@ export function Header() {
       </header>
 
       {/* desktop header */}
-      <header className="hidden h-[90px] w-full items-center justify-between border-b border-brand-ink bg-white px-[100px] lg:flex">
+      <header className="hidden h-[90px] w-full items-center justify-between gap-[16px] border-b border-brand-ink bg-white px-[24px] lg:flex xl:gap-0 xl:px-[100px]">
         <Logo />
 
-        <nav className="flex items-center gap-[28px]">
+        <nav className="flex items-center gap-[8px] xl:gap-[28px]">
           {NAV_ITEMS.map((item) => (
             <a
               key={item}
               href="#"
-              className="text-[12px] font-bold tracking-[1.2px] text-brand-ink transition-opacity hover:opacity-60"
+              className="whitespace-nowrap text-[11px] font-bold tracking-[0.6px] text-brand-ink transition-opacity hover:opacity-60 xl:text-[12px] xl:tracking-[1.2px]"
             >
               {item}
             </a>
@@ -50,7 +50,7 @@ export function Header() {
 
         <a
           href="#entry"
-          className="flex h-[52px] w-[240px] items-center justify-center rounded-full border-2 border-white bg-brand-orange font-anton text-[28px] tracking-[1.12px] text-white shadow-[0px_2px_4px_rgba(0,0,0,0.14)] transition-transform hover:scale-[1.03]"
+          className="flex h-[52px] w-[240px] shrink-0 items-center justify-center rounded-full border-2 border-white bg-brand-orange font-anton text-[28px] tracking-[1.12px] text-white shadow-[0px_2px_4px_rgba(0,0,0,0.14)] transition-transform hover:scale-[1.03]"
         >
           ENTRY
         </a>
