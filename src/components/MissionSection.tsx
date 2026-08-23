@@ -27,12 +27,12 @@ export function MissionSection() {
         <div className="flex gap-[15px]">
           <img
             src="/images/work04.png"
-            alt="トレーナーが会員を指導している様子"
+            alt="オフィスで書類を確認するスタッフ"
             className="h-[106px] w-[160px] rounded-[4px] object-cover"
           />
           <img
             src="/images/work02.png"
-            alt="スタッフ同士のミーティング風景"
+            alt="トレーナーが会員を指導している様子"
             className="h-[106px] w-[160px] rounded-[4px] object-cover"
           />
         </div>
@@ -60,13 +60,13 @@ export function MissionSection() {
 
         <img
           src="/images/work04.png"
-          alt="トレーナーが会員を指導している様子"
-          className="absolute -right-[160px] -top-[52px] h-[246px] w-[361px] rounded-[4px] object-cover object-bottom shadow-lg"
+          alt="オフィスで書類を確認するスタッフ"
+          className="absolute right-[158px] -top-[52px] h-[246px] w-[361px] rounded-[4px] object-cover object-bottom shadow-lg"
         />
         <img
           src="/images/work02.png"
-          alt="スタッフ同士のミーティング風景"
-          className="absolute -right-[55px] top-[219px] h-[246px] w-[369px] rounded-[4px] object-cover shadow-lg"
+          alt="トレーナーが会員を指導している様子"
+          className="absolute right-[46px] top-[219px] h-[246px] w-[369px] rounded-[4px] object-cover shadow-lg"
         />
       </div>
     </section>
