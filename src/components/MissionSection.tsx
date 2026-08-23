@@ -39,35 +39,37 @@ export function MissionSection() {
       </div>
 
       {/* desktop */}
-      <div className="relative mx-auto hidden w-[1200px] flex-col gap-[30px] py-[120px] lg:flex">
-        <h2
-          className="-skew-x-5 bg-gradient-to-br from-[#f5f5f5] to-white bg-clip-text font-black text-transparent"
-          style={{ fontSize: "61px", lineHeight: 1.38 }}
-        >
-          人が変わる瞬間に、
-          <br />
-          伴走する会社。
-        </h2>
+      <div className="hidden w-full flex-col items-center py-[120px] lg:flex">
+        <div className="relative flex w-[1200px] flex-col gap-[30px]">
+          <h2
+            className="-skew-x-5 bg-gradient-to-br from-[#f5f5f5] to-white bg-clip-text font-black text-transparent"
+            style={{ fontSize: "61px", lineHeight: 1.38 }}
+          >
+            人が変わる瞬間に、
+            <br />
+            伴走する会社。
+          </h2>
 
-        <div className="w-[640px] text-[18px] leading-[34px] text-white">
-          <p>1年目の自分は、誰に対して何をしているのか。</p>
-          <p>店舗に立った、その先には何があるのか。</p>
-          <p>ここで働いているのは、どんな人たちなのか。</p>
-          <p>会社を選ぶときに知りたいのは、たぶんこのあたりです。</p>
-          <p>条件の一覧では、ここが埋まりません。</p>
-          <p>HIBANA GYM 24の仕事は、人が変わる瞬間に立ち会う仕事です。</p>
+          <div className="w-[640px] text-[18px] leading-[34px] text-white">
+            <p>1年目の自分は、誰に対して何をしているのか。</p>
+            <p>店舗に立った、その先には何があるのか。</p>
+            <p>ここで働いているのは、どんな人たちなのか。</p>
+            <p>会社を選ぶときに知りたいのは、たぶんこのあたりです。</p>
+            <p>条件の一覧では、ここが埋まりません。</p>
+            <p>HIBANA GYM 24の仕事は、人が変わる瞬間に立ち会う仕事です。</p>
+          </div>
+
+          <img
+            src="/images/work04.png"
+            alt="オフィスで書類を確認するスタッフ"
+            className="absolute right-[158px] -top-[52px] h-[246px] w-[361px] rounded-[4px] object-cover object-bottom shadow-lg"
+          />
+          <img
+            src="/images/work02.png"
+            alt="トレーナーが会員を指導している様子"
+            className="absolute right-[46px] top-[219px] h-[246px] w-[369px] rounded-[4px] object-cover shadow-lg"
+          />
         </div>
-
-        <img
-          src="/images/work04.png"
-          alt="オフィスで書類を確認するスタッフ"
-          className="absolute right-[158px] -top-[52px] h-[246px] w-[361px] rounded-[4px] object-cover object-bottom shadow-lg"
-        />
-        <img
-          src="/images/work02.png"
-          alt="トレーナーが会員を指導している様子"
-          className="absolute right-[46px] top-[219px] h-[246px] w-[369px] rounded-[4px] object-cover shadow-lg"
-        />
       </div>
     </section>
   );
